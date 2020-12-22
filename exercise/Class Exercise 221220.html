@@ -10,15 +10,18 @@
 <body>
   <!-- <h1>Slide Javascript Alert</h1> -->
   <h2>My First Javascript</h2>
-  <!-- <script>
+  <script>
     // document.write("<hr>");
     // document.write("Hello World Wide Web");
     // document.write("<hr>");
-    alert("This is an Alert method");
-    confirm("Are you OK?");
-    prompt("What is your name?","Donald Duck");
-    prompt("How old are you?","20");
-  </script> -->
+    // alert("This is an Alert method");
+    // confirm("Are you OK?");
+    // prompt("What is your name?","Donald Duck");
+    // prompt("How old are you?","20");
+    function myCurrentDate(){
+      document.getElementById('demo').innerHTML = Date();
+    }
+  </script>
   <button type="button" onclick="document.getElementById('demo').innerHTML = Date()" name="button">Click me to display Date and Time.</button>
 
   <p id="demo"></p>
